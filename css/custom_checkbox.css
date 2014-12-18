@@ -1,0 +1,11 @@
+.cc_mask { height:19px; width:45px; overflow:hidden; border-radius:10px; box-shadow:0 0 1px rgba(0,0,0,0.2) inset; margin: 0 3px;}
+.cc_img { background:url(../images/custom_checkbox.png) no-repeat; width:71px; height:19px; 
+	-webkit-transition: background-position 0.1s ease-in ;
+       -moz-transition: background-position 0.1s ease-in;
+         -o-transition: background-position 0.1s ease-in;
+        -ms-transition: background-position 0.1s ease-in;
+            transition: background-position 0.1s ease-in; }
+.cc_img.on { background-position:0 0;}
+.cc_mask:hover .cc_img.on { background-position:-3px 0;} 
+.cc_img.off { background-position:-26px 0;}
+.cc_mask:hover .cc_img.off { background-position:-23px 0;}
